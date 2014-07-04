@@ -1,0 +1,3 @@
+module RailsOdata::OdataEndpoint
+
+end
