@@ -1,0 +1,8 @@
+%service{ "xmlns" => "http://www.w3.org/2007/app", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xml:base" => service.class.namespace, "slick-uniqueid" => "3" }
+  %div
+    %a{id: "slick_uniqueid"}
+  %workspace
+    %atom:title Default
+    - service.collections.each do |c|
+      %collection{href: c.anme}
+        %atom:title= c.name

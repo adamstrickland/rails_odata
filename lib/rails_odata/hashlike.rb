@@ -1,0 +1,3 @@
+module RailsOdata::Hashlike
+
+end
